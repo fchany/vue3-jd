@@ -1,0 +1,128 @@
+.flex{
+	display: flex;
+}
+/* 超出换行 */
+.flex-wrap{
+	flex-wrap: wrap;
+}
+/* 一行 左上 */
+.row-left-top{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+/* 一行 右上 */
+.row-right-top{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+/* 一行 水平居左 */
+.row-left-center{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+/* 一行 左下 */
+.row-left-bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+/* 一行 右下 */
+.row-right-bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+/* 一行 水平居右 */
+.row-right-center{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+/* 一行 顶部居中 */
+.row-top-center{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+/* 一行 底部居中 */
+.row-bottom-center{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: center;
+}
+/* 完全居中 一行 */
+.row-col-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* 完全居中 一列 */
+.row-center{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.col-flex{
+	display:flex;
+	flex-direction: column;
+}
+
+/* 两侧居中 一行 */
+.row-col-berween{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* 两侧 一行 */
+.row-berween{
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex0{
+	flex:0;
+}
+/* 等分 */
+.flex1{
+	flex:1;
+}
+/* 下面为等分布局 */
+.flex2_1{
+	flex:0 1 50%;
+}
+.flex3_1{
+	flex:0 1 33.3333%;
+}
+.flex4_1{
+	flex:0 1 25%;
+}
+.flex5_1{
+	flex:0 1 20%;
+}
+.flex6_1{
+	flex:0 1 16.6666%;
+}
+.flex7_1{
+	flex:0 1 14.2857%;
+}
+.flex8_1{
+	flex:0 1 12.5%;
+}
+.flex9_1{
+	flex:0 1 11.1111%;
+}
+.flex10_1{
+	flex:0 1 10%;
+}

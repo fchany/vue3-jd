@@ -1,0 +1,46 @@
+@import "../../styles/index.scss";
+.page{
+    background:#f8f8f8;
+    .header-wrap{
+        height:88px;
+        background:#c82519;
+        z-index:100;
+        .search-wrap{
+            background:#fff;
+            height:60px;
+            border-radius:30px;
+            .header-search-left-icon{
+                width:40px;
+            }
+        }
+    }
+    .header-fill{
+        height:88px;
+    }
+    .banner-bg-wrap{
+        background-image: linear-gradient(0deg,#f1503b,#c82519 50%);
+        height:290px;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+    }
+    .banner-wrap{
+        height:280px;
+    }
+    .active-wrap{
+        .active-left-icon{
+            width:35px;
+        }
+    }
+    .p5{
+        padding:5px;
+    }
+    .ell2{
+        @include ell(2);
+    }
+    .list-item-right-btn{
+        padding:5px 10px;
+        background:#f0f2f5;
+        color:#999;
+        border-radius:40px 0 0 40px;
+    }
+}
